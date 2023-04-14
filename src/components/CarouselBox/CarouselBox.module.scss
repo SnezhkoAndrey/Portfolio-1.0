@@ -1,0 +1,14 @@
+.text {
+  animation: pulse 1s infinite;
+  @keyframes pulse {
+    from {
+      transform: translateX(5px);
+    }
+    50% {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(5px);
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.select {
+  padding: 8px 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #a3abb2;
+  background-color: #0c151d;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+
+  &.light {
+    background-color: #e5e5e5;
+    color: #575757;
+  }
+
+  &:hover {
+    background-color: #171f26;
+
+    &.light {
+      background-color: #fff;
+    }
+  }
+
+  &:focus {
+    background-color: #171f26;
+
+    &.light {
+      background-color: #fff;
+    }
+  }
+
+  .option {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #171f26;
+
+    &.light {
+      background-color: #fff;
+    }
+  }
+}
